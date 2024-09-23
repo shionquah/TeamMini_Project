@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    color: #666;
+}
+
+.highlight {
+    background-color: #e91e63;
+    /* 改变高亮颜色为美食主题 */
+    color: #fff;
+    padding: 3px 8px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.main-content {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.blog-entry {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.blog-entry img {
+    width: 100%;
+    height: 300px;
+    /* 固定图片高度，防止不一致 */
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.blog-text {
+    padding: 10px 0;
+}
+
+.blog-text h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.blog-text h5 {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.blog-text p {
+    font-size: 16px;
+    color: #333;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #e91e63;
+    /* 主题颜色 */
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.comments {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.sidebar {
+    flex: 1;
+    min-width: 250px;
+    /* 侧边栏最小宽度 */
+}
+
+.about {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    text-align: center;
+    /* 图片和文字居中对齐 */
+}
+
+.about-img {
+    width: 100px;
+    /* 调整图片大小 */
+    height: 100px;
+    border-radius: 50%;
+    /* 圆形头像 */
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 14px;
+    color: #333;
+}
+
+.popular-posts {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+}
+
+.popular-posts ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.popular-posts ul li {
+    margin-bottom: 10px;
+}
+
+.popular-posts ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+}
+
+.popular-posts ul li a:hover {
+    text-decoration: underline;
+}
+
+.tags {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+}
+
+.tag {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    background-color: #ddd;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.pagination {
+    margin-bottom: 10px;
+}
+
+.pagination a {
+    text-decoration: none;
+    padding: 8px 16px;
+    margin: 0 5px;
+    background-color: #e91e63;
+    /* 主题颜色 */
+    color: #fff;
+}
+
+.powered-by {
+    font-size: 12px;
+    color: #666;
+}
