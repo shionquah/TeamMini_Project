@@ -1,4 +1,4 @@
-# TeamMini_Project Documentation
+# TeamMini_Project V1.1.0
 
 ## Overview
 A brief description of the project, its goals, and its purpose.
